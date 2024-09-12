@@ -26,6 +26,7 @@ public class NewBehaviourScript : MonoBehaviour
         } else if (transform.position.y <= startPosition) {
             direction = Vector3.up; 
         }
+        Debug.Log("hey");
         
     }
 }
